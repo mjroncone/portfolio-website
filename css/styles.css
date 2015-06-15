@@ -1,0 +1,154 @@
+[class*="openwebicons-"]:before {
+  font-family: 'OpenWeb Icons', sans-serif;
+}
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	background-color: black;
+}
+
+.text-muted {
+	color: #787878;
+}
+
+.text-thin {
+	font-weight: 200;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background-color: black;
+}
+
+a {
+	color: black;
+}
+
+.container {
+	max-width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.row.header{
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.logo{
+	margin-top: auto;
+	margin-bottom: auto;
+	max-width: 115px;
+	max-height: 115px;
+}
+
+.header-name-title {
+	margin-top: auto;
+	margin-bottom: 0;
+}
+
+.social-media-icons{
+	font-size: 18px;
+}
+
+.name {
+	font-size: 48px;
+	margin-bottom: 0;
+	margin-top: auto;
+}
+
+.title {
+	margin-top: 0;
+	margin-bottom: auto;
+}
+
+.socials {
+	margin-bottom: 0;
+}
+
+.main-column {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 15vw;
+	height: 23vh;
+	justify-content: center;
+	margin: 0;
+}
+
+.projects-intro {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.featured-projects-helper {
+	margin-top: auto;
+	margin-bottom: 0;
+}
+
+.project-1-text, .project-2-text, .project-3-text {
+	margin-bottom: 10px
+}
+
+.modal-descriptor {
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 520px) {
+	.row.header {
+		text-align: center;
+	}
+
+	.header-logo {
+		display: none;
+	}
+
+	.header-name-title{
+		margin-top: 1.5em;
+		margin-left: auto ;
+		margin-right: auto ;
+		order: 0;
+	}
+
+}
+
+@media screen and (min-width: 521px) and (max-width:990px) {
+	.row.header {
+		flex-direction: row;
+		text-align: right;
+	}
+
+	.header-logo {
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	.project-1, .project-2, .project-3 {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 10px;
+	}
+
+	.project-1-picture-box, .project-1-text, .project-2-picture-box, .project-2-text,
+		.project-3-picture-box, .project-3-text {
+		width: 50%;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.header-name-title {
+		text-align: right;
+	}
+
+	.projects-intro {
+		flex-wrap: nowrap;
+	}
+}
