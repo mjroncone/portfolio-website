@@ -9,8 +9,7 @@
       <title>Michael Roncone's Front End Developer Portfolio</title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/styles.css">
-      <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300"
-       rel="stylesheet">
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300">
       <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=openwebicons">
       <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico">
       <script src="js/jquery-1.11.3.min.js"></script>
@@ -45,12 +44,11 @@
          </div>
 
          <!-- Start of the Main Section -->
-         <section class="row middle-banner">
+         <div class="row middle-banner">
             <figure class="col-md-12 main-column">
-               <p class="openwebicons-open-share-simple">
-               </p>
+               <pre class="openwebicons-open-share-simple"></pre>
             </figure>
-         </section>
+         </div>
 
          <!-- Horizontal Rule between main and projects-->
          <div class="row hr-bottom">
@@ -62,7 +60,7 @@
          <!-- Row for text introducing projects -->
          <section class="row projects-intro">
             <header class="col-md-4 featured-projects-text">
-               <h2 class="text-muted"> Featured projects: </h2>
+               <h2 class="text-muted">Featured projects:</h2>
             </header>
             <aside class="col-md-8 featured-projects-helper">
                <p class="small text-muted projects-helper">
@@ -81,7 +79,7 @@
                </figure>
                <header class="project-text project-1-text">
                   <h4 class="text-uppercase"> Project One </h4>
-                  <a href="http://www.project1.fake">http://www.project1.fake</a>
+                  <a href="http://www.project1.fake" target="_blank">http://www.project1.fake</a>
                </header>
             </section>
             <!-- Project 2 related info -->
@@ -93,7 +91,7 @@
                </figure>
                <header class="project-text project-2-text">
                   <h4 class="text-uppercase"> Project Two </h4>
-                  <a href="http://www.project2.fake">http://www.project2.fake</a>
+                  <a href="http://www.project2.fake" target="_blank">http://www.project2.fake</a>
                </header>
             </section>
             <!-- Project 3 related info -->
@@ -106,7 +104,7 @@
                </figure>
                <header class="project-text project-3-text">
                   <h4 class="text-uppercase"> Project Three </h4>
-                  <a href="http://www.project3.fake">http://www.project3.fake</a>
+                  <a href="http://www.project3.fake" target="_blank">http://www.project3.fake</a>
                </header>
             </section>
          </main>
@@ -116,9 +114,9 @@
          not much information was given on them except for the code, will research
          further -->
       <!-- Modal Project 1 -->
-      <aside class="modal fade" id="project1" tabindex="-1" role="dialog"
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel1" aria-hidden="true">
-         <section class="modal-dialog">
+         <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
                   <h4 class="modal-title text-center" id="myModalLabel1">First Project Page</h4>
@@ -127,20 +125,20 @@
                   <img class="img-responsive" src="images/charting.jpg"
                      alt="A picture of a currency price chart with technical analysis
                      scribbled all over it.">
-                  <figcaption class="modal-descriptor">This was my first project in this class.
-                     I learned a lot about HTML and CSS.</figcaption>
+                  <figcaption class="modal-descriptor">This was my first project
+                     in this class. I learned a lot about HTML and CSS.</figcaption>
                </figure>
                <footer class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                </footer>
             </article>
-         </section>
-      </aside>
+         </aside>
+      </div>
 
       <!-- Modal Project 2 -->
-      <aside class="modal fade" id="project2" tabindex="-1" role="dialog"
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel2" aria-hidden="true">
-         <section class="modal-dialog">
+         <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
                   <h4 class="modal-title text-center" id="myModalLabel2">
@@ -150,20 +148,20 @@
                   <img class="img-responsive" src="images/chess.jpg"
                      alt="A picture of a chess board on a counter all set up and
                      ready for the game to begin.">
-                  <figcaption class="modal-descriptor">This will be my second project in this class.
-                     I'm going to learn a lot.</figcaption>
+                  <figcaption class="modal-descriptor">This will be my second
+                     project in this class. I'm going to learn a lot.</figcaption>
                </figure>
                <footer class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                </footer>
             </article>
-         </section>
-      </aside>
+         </aside>
+      </div>
 
       <!-- Modal Project 3-->
-      <aside class="modal fade" id="project3" tabindex="-1" role="dialog"
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel3" aria-hidden="true">
-         <section class="modal-dialog">
+         <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
                   <h4 class="modal-title text-center" id="myModalLabel3">Third Project Page</h4>
@@ -173,15 +171,15 @@
                      alt="A picture of Michael's old workstation as a derivatives
                      trader with twelve computer monitors stacked up: four across and
                      three high.">
-                  <figcaption class="modal-descriptor">This will be my third project in this class.
-                     I'm going to learn a lot.</figcaption>
+                  <figcaption class="modal-descriptor">This will be my third
+                     project in this class. I'm going to learn a lot.</figcaption>
                </figure>
                <footer class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                </footer>
             </article>
-         </section>
-      </aside>
+         </aside>
+      </div>
 
    </body>
 </html>
