@@ -97,15 +97,18 @@ a {
 
 @media screen and (max-width: 550px) {
 	.row.header {
+		display: flex;
+		flex-direction: column;
 		text-align: center;
 	}
 
-	.header-logo {
-		display: none;
+	.logo {
+		height: 60px;
+		width: 60px;
 	}
 
 	.header-name-title {
-		margin: 1.5em auto auto auto;
+		margin: 0 auto auto auto;
 		order: 0;
 	}
 }
