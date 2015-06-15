@@ -95,6 +95,10 @@ a {
 	margin: 10px auto auto auto;
 }
 
+figcaption {
+	margin: 10px auto auto auto;
+}
+
 @media screen and (max-width: 550px) {
 	.row.header {
 		display: flex;
@@ -125,7 +129,7 @@ a {
 	.header-name-title {
 		margin: auto 0 0 auto;
 	}
-	
+
 	.project-container {
 		display: flex;
 		flex-direction: row;
@@ -136,7 +140,7 @@ a {
 		width: 50%;
 		margin: auto;
 	}
-	
+
 	.project-text {
 		width: 50%;
 		margin: auto;
