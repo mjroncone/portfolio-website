@@ -122,6 +122,10 @@ a {
 		margin: auto auto auto 0;
 	}
 
+	.header-name-title {
+		margin: auto 0 0 auto;
+	}
+	
 	.project-container {
 		display: flex;
 		flex-direction: row;
