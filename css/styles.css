@@ -36,13 +36,13 @@ a {
 	background-color: white;
 }
 
-.row.header{
+.row.header {
 	display: flex;
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
-.logo{
+.logo {
 	margin-top: auto;
 	margin-bottom: auto;
 	max-width: 115px;
@@ -54,7 +54,7 @@ a {
 	margin-bottom: 0;
 }
 
-.social-media-icons{
+.social-media-icons {
 	font-size: 18px;
 }
 
@@ -110,7 +110,7 @@ a {
 		display: none;
 	}
 
-	.header-name-title{
+	.header-name-title {
 		margin-top: 1.5em;
 		margin-left: auto ;
 		margin-right: auto ;
