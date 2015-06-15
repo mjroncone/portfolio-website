@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Sets the title of the site, the character set to utf-8, loads in
+         the bootstrap framework as well as the custom css stylesheet,
+         loads in the font type, loads in the bootstrap and jQuery javascript. -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Michael Roncone's Front End Developer Portfolio</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300"
+       rel="stylesheet">
+      <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=openwebicons">
+      <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico">
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </head>
+
+   <body>
+      <!-- Sets container as well as determines all details in the header row -->
+      <div class="container">
+         <div class="row header">
+            <div class="col-md-2 header-logo">
+               <img class="img-responsive logo" src="images/gwscompass.svg"
+                  alt="Michael Roncone's logo, a nautical compass">
+            </div>
+            <div class="col-md-10 text-uppercase header-name-title">
+               <h1 class="name text-thin">Mike Roncone</h1>
+               <h4 class="title">Developer In Development</h4>
+               <div class="social-media-icons">
+                  <a class="brandico-linkedin-rect"
+                  href="https://www.linkedin.com/in/mjroncone" target="_blank"></a>
+                  <a class="brandico-github"
+                  href="https://github.com/mjroncone" target="_blank"></a>
+                  <a class="brandico-facebook-rect"
+                  href="https://www.facebook.com/mike.roncone" target="_blank"></a>
+                  <a class="brandico-twitter-bird"
+                  href="https://twitter.com/MikeRoncone" target="_blank"></a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Horizontal Rule between header and main -->
+         <div class="row hr-top">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+
+         <!-- Start of the Main Section -->
+         <div class="row main">
+            <div class="col-md-12 main-column">
+               <p class="openwebicons-open-share-simple">
+               </p>
+            </div>
+         </div>
+
+         <!-- Horizontal Rule between main and projects-->
+         <div class="row hr-bottom">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+
+         <!-- Row for text introducing projects -->
+         <div class="row projects-intro">
+            <div class="col-md-4 featured-projects-text">
+               <h2 class="text-muted"> Featured projects: </h2>
+            </div>
+            <div class="col-md-8 featured-projects-helper">
+               <p class="small text-muted projects-helper">
+               (Click or tap an image for more information)</p>
+            </div>
+         </div>
+
+         <!-- Row that contains all project and project-related divs -->
+         <div class="row projects text-center">
+            <!-- Project 1 related info -->
+            <div class="col-md-4 project-1">
+               <div class="project-1-picture-box">
+                  <img class="img-responsive project-1-image" src="images/charting.jpg"
+                     alt="A picture of a currency price chart with technical analysis
+                     scribbled all over it." data-toggle="modal" data-target="#project1" >
+               </div>
+               <div class="project-1-text">
+                  <h4 class="text-uppercase"> Project One </h4>
+                  <a href="http://www.project1.fake">http://www.project1.fake</a>
+               </div>
+            </div>
+            <!-- Project 2 related info -->
+            <div class="col-md-4 project-2">
+               <div class="project-2-picture-box">
+                  <img class="img-responsive project-2-image" src="images/chess.jpg"
+                     alt="A picture of a chess board on a counter all set up and
+                     ready for the game to begin." data-toggle="modal" data-target="#project2">
+               </div>
+               <div class="project-2-text">
+                  <h4 class="text-uppercase"> Project Two </h4>
+                  <a href="http://www.project2.fake">http://www.project2.fake</a>
+               </div>
+            </div>
+            <!-- Project 3 related info -->
+            <div class="col-md-4 project-3">
+               <div class="project-3-picture-box">
+                  <img class="img-responsive project-3-image" src="images/monitors.jpg"
+                     alt="A picture of Michael's old workstation as a derivatives
+                     trader with twelve computer monitors stacked up: four across and
+                     three high." data-toggle="modal" data-target="#project3" >
+               </div>
+               <div class="project-3-text">
+                  <h4 class="text-uppercase"> Project Three </h4>
+                  <a href="http://www.project3.fake">http://www.project3.fake</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- All modal information was taken from the class Intro to HTML/CSS,
+         not much information was given on them except for the code, will research
+         further -->
+      <!-- Modal Project 1 -->
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel1" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title text-center" id="myModalLabel1">First Project Page</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/charting.jpg"
+                     alt="A picture of a currency price chart with technical analysis
+                     scribbled all over it.">
+                  <p class="modal-descriptor">This was my first project in this class.
+                     I learned a lot about HTML and CSS.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Modal Project 2 -->
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel2" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title text-center" id="myModalLabel2">
+                     Second Project Page</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/chess.jpg"
+                     alt="A picture of a chess board on a counter all set up and
+                     ready for the game to begin.">
+                  <p class="modal-descriptor">This will be my second project in this class.
+                     I'm going to learn a lot.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Modal Project 3-->
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel3" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title text-center" id="myModalLabel3">Third Project Page</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/monitors.jpg"
+                     alt="A picture of Michael's old workstation as a derivatives
+                     trader with twelve computer monitors stacked up: four across and
+                     three high.">
+                  <p class="modal-descriptor">This will be my third project in this class.
+                     I'm going to learn a lot.</p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </body>
+</html>
