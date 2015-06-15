@@ -87,7 +87,7 @@ a {
 	margin: auto auto 0 0;
 }
 
-.project-1-text, .project-2-text, .project-3-text {
+.project-text {
 	margin: auto auto 10px auto;
 }
 
@@ -122,14 +122,18 @@ a {
 		margin: auto auto auto 0;
 	}
 
-	.project-1, .project-2, .project-3 {
+	.project-container {
 		display: flex;
 		flex-direction: row;
 		margin: auto auto 10px auto;
 	}
 
-	.project-1-picture-box, .project-1-text, .project-2-picture-box, .project-2-text,
-		.project-3-picture-box, .project-3-text {
+	.project-picture-box {
+		width: 50%;
+		margin: auto;
+	}
+	
+	.project-text {
 		width: 50%;
 		margin: auto;
 	}
