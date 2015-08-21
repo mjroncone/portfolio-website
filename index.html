@@ -26,7 +26,7 @@
             </figure>
             <header class="col-md-10 text-uppercase header-name-title">
                <h1 class="name text-thin">Mike Roncone</h1>
-               <h4 class="title">Developer In Development</h4>
+               <h4 class="title">Web Developer</h4>
                <figure class="social-media-icons">
                   <a class="brandico-linkedin-rect" href="https://www.linkedin.com/in/mjroncone" target="_blank"></a>
                   <a class="brandico-github" href="https://github.com/mjroncone" target="_blank"></a>
@@ -55,7 +55,6 @@
          </div>
 
          <!-- Horizontal Rule between main and projects-->
-         <!-- TODO: figure out proper semantic tags -->
          <div class="row hr-bottom">
             <div class="col-md-12">
                <hr>
@@ -78,38 +77,38 @@
             <!-- Project 1 related info -->
             <section class="col-md-4 project-container project-1">
                <figure class="project-picture-box">
-                  <img class="img-responsive project-1-image" src="images/charting.jpg"
-                     alt="A picture of a currency price chart with technical analysis
-                     scribbled all over it." data-toggle="modal" data-target="#project1" >
+                  <img class="img-responsive project-1-image" src="images/interactive-resume/resume-thumb-960-485.png"
+                     alt="A thumbnail picture of Michael's interactive resume site."
+                     data-toggle="modal" data-target="#project1" >
                </figure>
                <header class="project-text project-1-text">
-                  <h4 class="text-uppercase"> Project One </h4>
-                  <a href="http://www.project1.fake" target="_blank">http://www.project1.fake</a>
+                  <h4 class="text-uppercase"> Interactive Resume </h4>
+                  <a href="http://mjroncone.github.io/interactive-resume/" target="_blank">Click here to view my interactive resume!</a>
                </header>
             </section>
             <!-- Project 2 related info -->
             <section class="col-md-4 project-container project-2">
                <figure class="project-picture-box">
-                  <img class="img-responsive project-2-image" src="images/chess.jpg"
-                     alt="A picture of a chess board on a counter all set up and
-                     ready for the game to begin." data-toggle="modal" data-target="#project2">
+                  <img class="img-responsive project-2-image" src="images/performance-optimization/perf-thumb-960-485.png"
+                     alt="A thumbnail picture of Michael's performance optimized site." data-toggle="modal" data-target="#project2">
                </figure>
                <header class="project-text project-2-text">
-                  <h4 class="text-uppercase"> Project Two </h4>
-                  <a href="http://www.project2.fake" target="_blank">http://www.project2.fake</a>
+                  <h4 class="text-uppercase"> Performance Optimization </h4>
+                  <a href="http://mjroncone.github.io/fend-performance-optimization/" target="_blank">Click here to see an old unresponsive website that I optimized!</a>
                </header>
             </section>
             <!-- Project 3 related info -->
             <section class="col-md-4 project-container project-3">
                <figure class="project-picture-box">
-                  <img class="img-responsive project-3-image" src="images/monitors.jpg"
-                     alt="A picture of Michael's old workstation as a derivatives
-                     trader with twelve computer monitors stacked up: four across and
-                     three high." data-toggle="modal" data-target="#project3" >
+                  <img class="img-responsive project-3-image" src="images/neighborhood-map/map-thumb-960-485.png"
+                     alt="A thumbnail picture of Michael's Neighborhood Map web app.
+                      The picture features a Google Maps background with markers signifying
+                      locations of interest. Alternatively, there is a search bar and list view
+                      of those same locations." data-toggle="modal" data-target="#project3" >
                </figure>
                <header class="project-text project-3-text">
-                  <h4 class="text-uppercase"> Project Three </h4>
-                  <a href="http://www.project3.fake" target="_blank">http://www.project3.fake</a>
+                  <h4 class="text-uppercase"> Neighborhood Map Project </h4>
+                  <a href="http://mjroncone.github.io/fend-neighborhood-map-p5/" target="_blank">Click here to try out the app for yourself!</a>
                </header>
             </section>
          </main>
@@ -127,14 +126,16 @@
          <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel1">First Project Page</h4>
+                  <h4 class="modal-title text-center" id="myModalLabel1">Interactive Resume</h4>
                </header>
                <figure class="modal-body">
-                  <img class="img-responsive" src="images/charting.jpg"
-                     alt="A picture of a currency price chart with technical analysis
-                     scribbled all over it.">
-                  <figcaption class="modal-descriptor">This was my first project
-                     in this class. I learned a lot about HTML and CSS.</figcaption>
+                  <img class="img-responsive" src="images/interactive-resume/resume-thumb-960-485.png"
+                     alt="A thumbnail picture of Michael's interactive resume site.">
+                  <figcaption class="modal-descriptor">
+                    Built mainly on JavaScript and jQuery in order to gain some mastery of the framework.
+                    Using a simple HTML frame, this project recreates my resume in an interesting format that allows users to interact with
+                    different details and allows me to update it seamlessly with new information or new ways to present that information.
+                  </figcaption>
                </figure>
                <footer class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -150,14 +151,18 @@
             <article class="modal-content">
                <header class="modal-header">
                   <h4 class="modal-title text-center" id="myModalLabel2">
-                     Second Project Page</h4>
+                     Performance Optimization</h4>
                </header>
                <figure class="modal-body">
-                  <img class="img-responsive" src="images/chess.jpg"
-                     alt="A picture of a chess board on a counter all set up and
-                     ready for the game to begin.">
-                  <figcaption class="modal-descriptor">This will be my second
-                     project in this class. I'm going to learn a lot.</figcaption>
+                  <img class="img-responsive" src="images/performance-optimization/perf-thumb-960-485.png"
+                     alt="A thumbnail picture of Michael's performance optimized site.">
+                  <figcaption class="modal-descriptor">
+                    Took a supplied resource-intensive, poorly constructed, and un-optimized site and made
+                    optimizations to ensure a smooth, uninterrupted 60 frames per second user experience.
+                    Used build automation tools to optimize images and code, remedied unnecessary
+                    critical rendering path blockers, refactored JavaScript to remove forced synchronous layout
+                     issues, introduced layer management to minimize re-rendering as a user scrolls through the pages.
+                  </figcaption>
                </figure>
                <footer class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -172,15 +177,23 @@
          <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel3">Third Project Page</h4>
+                  <h4 class="modal-title text-center" id="myModalLabel3">Neighborhood Map Page</h4>
                </header>
                <figure class="modal-body">
-                  <img class="img-responsive" src="images/monitors.jpg"
-                     alt="A picture of Michael's old workstation as a derivatives
-                     trader with twelve computer monitors stacked up: four across and
-                     three high.">
-                  <figcaption class="modal-descriptor">This will be my third
-                     project in this class. I'm going to learn a lot.</figcaption>
+                  <img class="img-responsive" src="images/neighborhood-map/map-thumb-960-485.png"
+                     alt="A picture of Michael's Neighborhood Map web app.
+                      The picture features a Google Maps background with markers signifying
+                      locations of interest. Alternatively, there is a search bar and list view
+                      of those same locations.">
+                  <figcaption class="modal-descriptor">
+                    Learned to use the Model-View-ViewModel approach to app design via the Knockout framework
+                    while also learning how to better utilize AJAX API requests via JavaScript.
+                    Created a web app which uses the Google Maps API and Four Square API to display
+                    a map of the Lincoln Park neighborhood in Chicago IL complete with map markers
+                    for Restaurants and Coffee shops. Made map markers searchable, clickable, and also
+                    populated in a list view that can be opened and closed. For maximum responsiveness,
+                    settings adjust based on device screen size.
+                  </figcaption>
                </figure>
                <footer class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
