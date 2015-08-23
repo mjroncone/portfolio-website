@@ -43,11 +43,18 @@
 
          <!-- Start of the Main Section -->
          <div class="row middle-banner">
-            <figure class="col-md-12 middle-banner">
-               <img class="middle-banner" src="images/images/dot-white-3000.png"
-               srcset="images/dot-white-3000.png 3000w, images/dot-white-2000.png 2000w,
-                        images/dot-white-1000.png 1000w, images/dot-white-500.png 500w"
-               alt="">
+            <picture class="col-md-12 middle-banner">
+              <source
+              media="(min-width: 1000px)"
+              srcset="images/dot-white-2000.png 1x, images/dot-white-3000.png 2x"
+              >
+              <source
+              media="(min-width: 600px)"
+              srcset="images/dot-white-1000.png 1x, images/dot-white-2000.png 2x"
+              >
+              <img class="img-responsive middle-banner" src="images/dot-white-500.png"
+              alt=""
+              >
             </figure>
          </div>
 
