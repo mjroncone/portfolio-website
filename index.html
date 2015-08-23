@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <!-- Sets the title of the site, the character set to utf-8, loads in
-         the bootstrap framework as well as the custom css stylesheet,
-         loads in the font type, loads in the bootstrap and jQuery javascript. -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Michael Roncone's Front End Developer Portfolio</title>
@@ -19,6 +16,7 @@
    <body>
       <!-- Sets container as well as determines all details in the header row -->
       <div class="container">
+        <div class="top-buffer"></div>
          <section class="row header">
             <figure class="col-md-2 header-logo">
                <img class="img-responsive logo" src="images/gwscompass.svg"
@@ -37,7 +35,6 @@
          </section>
 
          <!-- Horizontal Rule between header and main -->
-         <!-- TODO: figure out proper semantic tags -->
          <div class="row hr-top">
             <div class="col-md-12">
                <hr>
@@ -45,12 +42,13 @@
          </div>
 
          <!-- Start of the Main Section -->
-         <!-- TODO: add something more meaningful here
-            as well as figure out proper semantic tags
-            (might be easier with more meaningful content) -->
          <div class="row middle-banner">
             <figure class="col-md-12 middle-banner">
-               <pre class="openwebicons-open-share-simple"></pre>
+               <img class="img-responsive middle-banner" src="images/worlddotwhite-879-210.jpg"
+               srcset="images/worlddotwhite-879-210.jpg 879w, images/worlddotwhite-659-210.jpg 659w,
+                        images/worlddotwhite-494-210.jpg 494w"
+               sizes="100vw"
+               alt="">
             </figure>
          </div>
 
@@ -112,6 +110,7 @@
                </header>
             </section>
          </main>
+         <div class="bottom-buffer"></div>
       </div>
 
       <!-- All modal information was taken from the class Intro to HTML/CSS,
