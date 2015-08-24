@@ -1,211 +1,269 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Michael Roncone's Front End Developer Portfolio</title>
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/styles.css">
-      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300">
-      <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=openwebicons">
-      <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico">
-      <script src="js/jquery-1.11.3.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-   </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Roncone's Front End Developer Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=openwebicons">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=brandico">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
 
-   <body>
-      <!-- Sets container as well as determines all details in the header row -->
-      <div class="container">
-        <div class="top-buffer"></div>
-         <section class="row header">
-            <figure class="col-md-2 header-logo">
-               <img class="img-responsive logo" src="images/gwscompass.svg"
-                  alt="Michael Roncone's logo, a nautical compass">
-            </figure>
-            <header class="col-md-10 text-uppercase header-name-title">
-               <h1 class="name text-thin">Mike Roncone</h1>
-               <h4 class="title">Web Developer</h4>
-               <figure class="social-media-icons">
-                  <a class="brandico-linkedin-rect" href="https://www.linkedin.com/in/mjroncone" target="_blank"></a>
-                  <a class="brandico-github" href="https://github.com/mjroncone" target="_blank"></a>
-                  <a class="brandico-facebook-rect" href="https://www.facebook.com/mike.roncone" target="_blank"></a>
-                  <a class="brandico-twitter-bird" href="https://twitter.com/MikeRoncone" target="_blank"></a>
-               </figure>
-            </header>
-         </section>
+  <body>
+    <!-- Sets container as well as determines all details in the header row -->
+    <div class="container">
+      <section class="row header">
+        <figure class="col-md-2 header-logo">
+          <img class="img-responsive logo" src="images/gwscompass.svg"
+            alt="Michael Roncone's logo, a nautical compass">
+        </figure>
+        <header class="col-md-10 text-uppercase header-name-title">
+          <h1 class="name text-thin">Mike Roncone</h1>
+          <h4 class="title">Web Developer</h4>
+          <figure class="social-media-icons">
+            <a class="brandico-linkedin-rect" href="https://www.linkedin.com/in/mjroncone" target="_blank"></a>
+            <a class="brandico-github" href="https://github.com/mjroncone" target="_blank"></a>
+            <a class="brandico-facebook-rect" href="https://www.facebook.com/mike.roncone" target="_blank"></a>
+            <a class="brandico-twitter-bird" href="https://twitter.com/MikeRoncone" target="_blank"></a>
+          </figure>
+        </header>
+      </section>
 
-         <!-- Horizontal Rule between header and main -->
-         <div class="row hr-top">
-            <div class="col-md-12">
-               <hr>
-            </div>
-         </div>
-
-         <!-- Start of the Main Section -->
-         <div class="row middle-banner">
-            <picture class="col-md-12 middle-banner">
-              <source
-                media="(min-width: 1000px)"
-                srcset="images/dot-white-2000.png 1x, images/dot-white-3000.png 2x"
-              >
-              <source
-                media="(min-width: 600px)"
-                srcset="images/dot-white-1000.png 1x, images/dot-white-2000.png 2x"
-              >
-              <img class="img-responsive middle-banner" src="images/dot-white-500.png"
-              alt="A map of internet connection density around the world. The United States
-                and Europe are densely shaded while the rest of the world remains relatively blank."
-              >
-            </figure>
-         </div>
-
-         <!-- Horizontal Rule between main and projects-->
-         <div class="row hr-bottom">
-            <div class="col-md-12">
-               <hr>
-            </div>
-         </div>
-
-         <!-- Row for text introducing projects -->
-         <section class="row projects-intro">
-            <header class="col-md-4 featured-projects-text">
-               <h2 class="text-muted">Featured projects:</h2>
-            </header>
-            <aside class="col-md-8 featured-projects-helper">
-               <p class="small text-muted projects-helper">
-               (Click or tap an image for more information)</p>
-            </aside>
-         </section>
-
-         <!-- Row that contains all project and project-related divs -->
-         <main class="row projects text-center">
-            <!-- Project 1 related info -->
-            <section class="col-md-4 project-container project-1">
-              <figure class="project-picture-box">
-                 <img class="img-responsive project-1-image" src="images/neighborhood-map/map-thumb-960-485.png"
-                    alt="A thumbnail picture of Michael's Neighborhood Map web app.
-                     The picture features a Google Maps background with markers signifying
-                     locations of interest. Alternatively, there is a search bar and list view
-                     of those same locations." data-toggle="modal" data-target="#project1" >
-              </figure>
-              <header class="project-text project-1-text">
-                 <h4 class="text-uppercase"> Neighborhood Map</h4>
-                 <a href="http://mjroncone.github.io/fend-neighborhood-map/" target="_blank">mjroncone.github.io/fend-neighborhood-map</a>
-              </header>
-            </section>
-            <!-- Project 2 related info -->
-            <section class="col-md-4 project-container project-2">
-              <figure class="project-picture-box">
-                 <img class="img-responsive project-2-image" src="images/interactive-resume/resume-thumb-960-485.png"
-                    alt="A thumbnail picture of Michael's interactive resume website."
-                    data-toggle="modal" data-target="#project2" >
-              </figure>
-              <header class="project-text project-2-text">
-                 <h4 class="text-uppercase"> Interactive Resume </h4>
-                 <a href="http://mjroncone.github.io/interactive-resume/" target="_blank">mjroncone.github.io/interactive-resume</a>
-              </header>
-            </section>
-            <!-- Project 3 related info -->
-            <section class="col-md-4 project-container project-3">
-              <figure class="project-picture-box">
-                 <img class="img-responsive project-3-image" src="images/performance-optimization/perf-thumb-960-485.png"
-                    alt="A thumbnail picture of Michael's performance optimized site." data-toggle="modal" data-target="#project3">
-              </figure>
-              <header class="project-text project-3-text">
-                 <h4 class="text-uppercase"> Performance Optimization </h4>
-                 <a href="http://mjroncone.github.io/fend-perf-opt/" target="_blank">mjroncone.github.io/fend-perf-opt</a>
-              </header>
-            </section>
-         </main>
-         <div class="bottom-buffer"></div>
+      <!-- Horizontal Rule between header and main -->
+      <div class="row hr-top">
+        <div class="col-md-12">
+          <hr>
+        </div>
       </div>
 
-      <!-- All modal information was taken from the class Intro to HTML/CSS,
-         not much information was given on them except for the code, will research
-         further -->
-      <!-- TODO: find out proper semantic taggings of these, especially
-         the outermost element which returns errors/warnings with
-         section, aside, etc. -->
-      <!-- Modal Project 1 -->
-      <div class="modal fade" id="project1" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel1" aria-hidden="true">
-         <aside class="modal-dialog">
-            <article class="modal-content">
-               <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel1">Neighborhood Map</h4>
-               </header>
-               <figure class="modal-body">
-                  <img class="img-responsive" src="images/neighborhood-map/map-thumb-960-485.png"
-                     alt="A picture of Michael's Neighborhood Map web app.
-                      The picture features a Google Maps background with markers signifying
-                      locations of interest. Alternatively, there is a search bar and list view
-                      of those same locations.">
-                  <figcaption class="modal-descriptor">
-                    Learned to use the Model-View-ViewModel approach to app design via the Knockout framework
-                    while also learning how to better utilize AJAX API requests via JavaScript.
-                    Created a web app which uses the Google Maps API and Four Square API to display
-                    a map of the Lincoln Park neighborhood in Chicago IL complete with map markers
-                    for Restaurants and Coffee shops. Made map markers searchable, clickable, and also
-                    populated in a list view that can be opened and closed. For maximum responsiveness,
-                    settings adjust based on device screen size.
-                  </figcaption>
-               </figure>
-               <footer class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </footer>
-            </article>
-         </aside>
+      <!-- Start of the Main Section -->
+      <div class="row middle-banner">
+        <picture class="col-md-12 middle-banner">
+          <source
+            media="(min-width: 1000px)"
+            srcset="images/dot-white-2000.png 1x, images/dot-white-3000.png 2x"
+          >
+          <source
+            media="(min-width: 600px)"
+            srcset="images/dot-white-1000.png 1x, images/dot-white-2000.png 2x"
+          >
+          <img class="img-responsive middle-banner" src="images/dot-white-500.png"
+            alt="A map of internet connection density around the world. The United States
+              and Europe are densely shaded while the rest of the world remains relatively blank."
+          >
+        </picture>
       </div>
 
-      <!-- Modal Project 2 -->
-      <div class="modal fade" id="project2" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel2" aria-hidden="true">
-         <aside class="modal-dialog">
-            <article class="modal-content">
-               <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel2">Interactive Resume</h4>
-               </header>
-               <figure class="modal-body">
-                  <img class="img-responsive" src="images/interactive-resume/resume-thumb-960-485.png"
-                     alt="A thumbnail picture of Michael's interactive resume site.">
-                  <figcaption class="modal-descriptor">
-                    Built mainly on JavaScript and jQuery in order to gain some mastery of the framework.
-                    Using a simple HTML frame, this project recreates my resume in an interesting format that allows users to interact with
-                    different details and allows me to update it seamlessly with new information or new ways to present that information.
-                  </figcaption>
-               </figure>
-               <footer class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </footer>
-            </article>
-         </aside>
+      <!-- Horizontal Rule between main and projects-->
+      <div class="row hr-bottom">
+        <div class="col-md-12">
+          <hr>
+        </div>
       </div>
 
-      <!-- Modal Project 3-->
-      <div class="modal fade" id="project3" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel3" aria-hidden="true">
-         <aside class="modal-dialog">
-            <article class="modal-content">
-               <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel3">Performance Optimization</h4>
-               </header>
-               <figure class="modal-body">
-                  <img class="img-responsive" src="images/performance-optimization/perf-thumb-960-485.png"
-                     alt="A thumbnail picture of Michael's performance optimized site.">
-                  <figcaption class="modal-descriptor">
-                    Took a supplied resource-intensive, poorly constructed, and un-optimized site and made
-                    optimizations to ensure a smooth, uninterrupted 60 frames per second user experience.
-                    Used build automation tools to optimize images and code, remedied unnecessary
-                    critical rendering path blockers, refactored JavaScript to remove forced synchronous layout
-                     issues, introduced layer management to minimize re-rendering as a user scrolls through the pages.
-                  </figcaption>
-               </figure>
-               <footer class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </footer>
-            </article>
-         </aside>
-      </div>
+      <!-- Row for text introducing projects -->
+      <section class="row projects-intro">
+        <header class="col-md-4 featured-projects-text">
+          <h2 class="text-muted">Featured projects:</h2>
+        </header>
+        <aside class="col-md-8 featured-projects-helper">
+          <p class="small text-muted projects-helper">(Click or tap an image for more information)</p>
+        </aside>
+      </section>
 
-   </body>
+      <!-- Row that contains all project and project-related divs -->
+      <main class="row projects text-center">
+        <!-- Project 1 related info -->
+        <section class="col-md-4 project-container project-1">
+          <figure class="project-picture-box">
+            <img class="img-responsive project-1-image"
+              src="images/neighborhood-map/map-thumb-960-485.png"
+              alt="A thumbnail picture of Michael's Neighborhood Map web app.
+                The picture features a Google Maps background with markers signifying
+                locations of interest. Alternatively, there is a search bar and list view
+                of those same locations."
+              data-toggle="modal" data-target="#project1" >
+          </figure>
+          <header class="project-text project-1-text">
+            <h4 class="text-uppercase"> Neighborhood Map </h4>
+            <a href="http://mjroncone.github.io/fend-neighborhood-map/" target="_blank">mjroncone.github.io/fend-neighborhood-map</a>
+          </header>
+        </section>
+        <!-- Project 2 related info -->
+        <section class="col-md-4 project-container project-2">
+          <figure class="project-picture-box">
+            <img class="img-responsive project-2-image"
+              src="images/interactive-resume/resume-thumb-960-485.png"
+              alt="A thumbnail picture of Michael's interactive resume website."
+              data-toggle="modal" data-target="#project2" >
+          </figure>
+          <header class="project-text project-2-text">
+            <h4 class="text-uppercase"> Interactive Resume </h4>
+            <a href="http://mjroncone.github.io/interactive-resume/" target="_blank">mjroncone.github.io/interactive-resume</a>
+          </header>
+        </section>
+        <!-- Project 3 related info -->
+        <section class="col-md-4 project-container project-3">
+          <figure class="project-picture-box">
+            <img class="img-responsive project-3-image"
+              src="images/performance-optimization/perf-thumb-960-485.png"
+              alt="A thumbnail picture of Michael's performance optimized site."
+              data-toggle="modal" data-target="#project3">
+          </figure>
+          <header class="project-text project-3-text">
+            <h4 class="text-uppercase"> Performance Optimization </h4>
+            <a href="http://mjroncone.github.io/fend-perf-opt/" target="_blank">mjroncone.github.io/fend-perf-opt</a>
+          </header>
+        </section>
+      </main>
+    </div>
+
+    <!-- All modal information was taken from the class Intro to HTML/CSS on Udacity,
+      not much information was given on them except for the code, will research further -->
+    <!-- Modal Project 1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <aside class="modal-dialog">
+        <article class="modal-content">
+          <header class="modal-header">
+            <h3 class="modal-title text-center" id="myModalLabel1">Neighborhood Map</h3>
+          </header>
+          <figure class="modal-body">
+            <img class="img-responsive" src="images/neighborhood-map/map-thumb-960-485.png"
+              alt="A picture of Michael's Neighborhood Map web app.
+                The picture features a Google Maps background with markers signifying
+                locations of interest. Alternatively, there is a search bar and list view
+                of those same locations.">
+            <figcaption class="modal-descriptor">
+              <p>
+                <strong>Link: </strong><a href="https://mjroncone.github.io/fend-neighborhood-map/">https://mjroncone.github.io/fend-neighborhood-map/</a>
+              </p>
+              <p>
+                <strong>Abstract</strong>
+                <br>
+                The Neighborhood map project was an exercise to explore a number of
+                methodologies including MVVM site design, working with third party APIs,
+                and learning how to figure out new frameworks. I built it from the ground
+                up with minimal help from outside sources.
+              </p>
+              <p>
+                <strong>Description</strong>
+                <br>
+                The app is designed to show locations of interest around my old neighborhood
+                -- Lincoln Park in Chicago Illinois. By loading up the site you will be
+                presented with a Google Maps interface complete with search bar and location list
+                built over it. When loaded, an API request is fired off to Four Square which
+                pulls data about all of the restuarants and coffee shops in the area (50 location
+                max). All of these locations get their own map marker to show location.
+                Clicking on a marker will activate it, opening an Info Window with more
+                details about the location including: name, phone number, address, category
+                of food, and a link to the menu if one exists. Type in the search bar to
+                filter by location name or category. Clicking the "Open List" button in the top left
+                will open a list of locations currently displayed on the map. Clicking on
+                a location in the list will activate its marker and on mobile devices,
+                close the location list to provide uninterrupted view of the map.
+              </p>
+              <p><strong>Lessons learned building this project:</strong>
+                <ul>
+                  <li>How to use the Model-View-ViewModel approach to site development</li>
+                  <li>How to use the Knockout framework, more generally how to use an MVVM framework</li>
+                  <li>How frameworks can help to eliminate the need for manual data refreshes</li>
+                  <li>How to perform AJAX requests to third party APIs in order to receive and manipulate data</li>
+                </ul>
+              </p>
+            </figcaption>
+          </figure>
+          <footer class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </footer>
+        </article>
+      </aside>
+    </div>
+
+    <!-- Modal Project 2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <aside class="modal-dialog">
+        <article class="modal-content">
+          <header class="modal-header">
+            <h3 class="modal-title text-center" id="myModalLabel2">Interactive Resume</h3>
+          </header>
+          <figure class="modal-body">
+            <img class="img-responsive" src="images/interactive-resume/resume-thumb-960-485.png"
+              alt="A thumbnail picture of Michael's interactive resume site.">
+            <figcaption class="modal-descriptor">
+              <p>
+                <strong>Link: </strong><a href=""></a>
+              </p>
+              <p>
+                <strong>Abstract</strong>
+                <br>
+                Built mainly on JavaScript and jQuery in order to gain some mastery of the framework.
+                Using a simple HTML frame, this project recreates my resume in an interesting format that allows users to interact with
+                different details and allows me to update it seamlessly with new information or new ways to present that information.
+              </p>
+              <p>
+                <strong>Description</strong>
+                <br>
+
+              </p>
+              <p><strong>Lessons learned building this project:</strong>
+                <ul>
+                  <li></li>
+                </ul>
+              </p>
+            </figcaption>
+          </figure>
+          <footer class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </footer>
+        </article>
+      </aside>
+    </div>
+
+    <!-- Modal Project 3-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <aside class="modal-dialog">
+        <article class="modal-content">
+          <header class="modal-header">
+            <h3 class="modal-title text-center" id="myModalLabel3">Performance Optimization</h3>
+          </header>
+          <figure class="modal-body">
+            <img class="img-responsive" src="images/performance-optimization/perf-thumb-960-485.png"
+              alt="A thumbnail picture of Michael's performance optimized site.">
+            <figcaption class="modal-descriptor">
+              <p>
+                <strong>Link: </strong><a href=""></a>
+              </p>
+              <p>
+                <strong>Abstract</strong>
+                <br>
+                Took a supplied resource-intensive, poorly constructed, and un-optimized site and made
+                optimizations to ensure a smooth, uninterrupted 60 frames per second user experience.
+                Used build automation tools to optimize images and code, remedied unnecessary
+                critical rendering path blockers, refactored JavaScript to remove forced synchronous layout
+                 issues, introduced layer management to minimize re-rendering as a user scrolls through the pages.
+              </p>
+              <p>
+                <strong>Description</strong>
+                <br>
+
+              </p>
+              <p><strong>Lessons learned building this project:</strong>
+                <ul>
+                  <li></li>
+                </ul>
+              </p>
+            </figcaption>
+          </figure>
+          <footer class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </footer>
+        </article>
+      </aside>
+    </div>
+
+  </body>
 </html>
