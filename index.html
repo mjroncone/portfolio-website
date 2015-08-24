@@ -45,15 +45,16 @@
          <div class="row middle-banner">
             <picture class="col-md-12 middle-banner">
               <source
-              media="(min-width: 1000px)"
-              srcset="images/dot-white-2000.png 1x, images/dot-white-3000.png 2x"
+                media="(min-width: 1000px)"
+                srcset="images/dot-white-2000.png 1x, images/dot-white-3000.png 2x"
               >
               <source
-              media="(min-width: 600px)"
-              srcset="images/dot-white-1000.png 1x, images/dot-white-2000.png 2x"
+                media="(min-width: 600px)"
+                srcset="images/dot-white-1000.png 1x, images/dot-white-2000.png 2x"
               >
               <img class="img-responsive middle-banner" src="images/dot-white-500.png"
-              alt=""
+              alt="A map of internet connection density around the world. The United States
+                and Europe are densely shaded while the rest of the world remains relatively blank."
               >
             </figure>
          </div>
@@ -80,40 +81,40 @@
          <main class="row projects text-center">
             <!-- Project 1 related info -->
             <section class="col-md-4 project-container project-1">
-               <figure class="project-picture-box">
-                  <img class="img-responsive project-1-image" src="images/interactive-resume/resume-thumb-960-485.png"
-                     alt="A thumbnail picture of Michael's interactive resume site."
-                     data-toggle="modal" data-target="#project1" >
-               </figure>
-               <header class="project-text project-1-text">
-                  <h4 class="text-uppercase"> Interactive Resume </h4>
-                  <a href="http://mjroncone.github.io/interactive-resume/" target="_blank">Click here to view my interactive resume!</a>
-               </header>
+              <figure class="project-picture-box">
+                 <img class="img-responsive project-1-image" src="images/neighborhood-map/map-thumb-960-485.png"
+                    alt="A thumbnail picture of Michael's Neighborhood Map web app.
+                     The picture features a Google Maps background with markers signifying
+                     locations of interest. Alternatively, there is a search bar and list view
+                     of those same locations." data-toggle="modal" data-target="#project1" >
+              </figure>
+              <header class="project-text project-1-text">
+                 <h4 class="text-uppercase"> Neighborhood Map</h4>
+                 <a href="http://mjroncone.github.io/fend-neighborhood-map/" target="_blank">mjroncone.github.io/fend-neighborhood-map</a>
+              </header>
             </section>
             <!-- Project 2 related info -->
             <section class="col-md-4 project-container project-2">
-               <figure class="project-picture-box">
-                  <img class="img-responsive project-2-image" src="images/performance-optimization/perf-thumb-960-485.png"
-                     alt="A thumbnail picture of Michael's performance optimized site." data-toggle="modal" data-target="#project2">
-               </figure>
-               <header class="project-text project-2-text">
-                  <h4 class="text-uppercase"> Performance Optimization </h4>
-                  <a href="http://mjroncone.github.io/fend-performance-optimization/" target="_blank">Click here to see an old unresponsive website that I optimized!</a>
-               </header>
+              <figure class="project-picture-box">
+                 <img class="img-responsive project-2-image" src="images/interactive-resume/resume-thumb-960-485.png"
+                    alt="A thumbnail picture of Michael's interactive resume website."
+                    data-toggle="modal" data-target="#project2" >
+              </figure>
+              <header class="project-text project-2-text">
+                 <h4 class="text-uppercase"> Interactive Resume </h4>
+                 <a href="http://mjroncone.github.io/interactive-resume/" target="_blank">mjroncone.github.io/interactive-resume</a>
+              </header>
             </section>
             <!-- Project 3 related info -->
             <section class="col-md-4 project-container project-3">
-               <figure class="project-picture-box">
-                  <img class="img-responsive project-3-image" src="images/neighborhood-map/map-thumb-960-485.png"
-                     alt="A thumbnail picture of Michael's Neighborhood Map web app.
-                      The picture features a Google Maps background with markers signifying
-                      locations of interest. Alternatively, there is a search bar and list view
-                      of those same locations." data-toggle="modal" data-target="#project3" >
-               </figure>
-               <header class="project-text project-3-text">
-                  <h4 class="text-uppercase"> Neighborhood Map Project </h4>
-                  <a href="http://mjroncone.github.io/fend-neighborhood-map-p5/" target="_blank">Click here to try out the app for yourself!</a>
-               </header>
+              <figure class="project-picture-box">
+                 <img class="img-responsive project-3-image" src="images/performance-optimization/perf-thumb-960-485.png"
+                    alt="A thumbnail picture of Michael's performance optimized site." data-toggle="modal" data-target="#project3">
+              </figure>
+              <header class="project-text project-3-text">
+                 <h4 class="text-uppercase"> Performance Optimization </h4>
+                 <a href="http://mjroncone.github.io/fend-perf-opt/" target="_blank">mjroncone.github.io/fend-perf-opt</a>
+              </header>
             </section>
          </main>
          <div class="bottom-buffer"></div>
@@ -131,7 +132,38 @@
          <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel1">Interactive Resume</h4>
+                  <h4 class="modal-title text-center" id="myModalLabel1">Neighborhood Map</h4>
+               </header>
+               <figure class="modal-body">
+                  <img class="img-responsive" src="images/neighborhood-map/map-thumb-960-485.png"
+                     alt="A picture of Michael's Neighborhood Map web app.
+                      The picture features a Google Maps background with markers signifying
+                      locations of interest. Alternatively, there is a search bar and list view
+                      of those same locations.">
+                  <figcaption class="modal-descriptor">
+                    Learned to use the Model-View-ViewModel approach to app design via the Knockout framework
+                    while also learning how to better utilize AJAX API requests via JavaScript.
+                    Created a web app which uses the Google Maps API and Four Square API to display
+                    a map of the Lincoln Park neighborhood in Chicago IL complete with map markers
+                    for Restaurants and Coffee shops. Made map markers searchable, clickable, and also
+                    populated in a list view that can be opened and closed. For maximum responsiveness,
+                    settings adjust based on device screen size.
+                  </figcaption>
+               </figure>
+               <footer class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </footer>
+            </article>
+         </aside>
+      </div>
+
+      <!-- Modal Project 2 -->
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel2" aria-hidden="true">
+         <aside class="modal-dialog">
+            <article class="modal-content">
+               <header class="modal-header">
+                  <h4 class="modal-title text-center" id="myModalLabel2">Interactive Resume</h4>
                </header>
                <figure class="modal-body">
                   <img class="img-responsive" src="images/interactive-resume/resume-thumb-960-485.png"
@@ -149,14 +181,13 @@
          </aside>
       </div>
 
-      <!-- Modal Project 2 -->
-      <div class="modal fade" id="project2" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel2" aria-hidden="true">
+      <!-- Modal Project 3-->
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel3" aria-hidden="true">
          <aside class="modal-dialog">
             <article class="modal-content">
                <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel2">
-                     Performance Optimization</h4>
+                  <h4 class="modal-title text-center" id="myModalLabel3">Performance Optimization</h4>
                </header>
                <figure class="modal-body">
                   <img class="img-responsive" src="images/performance-optimization/perf-thumb-960-485.png"
@@ -167,37 +198,6 @@
                     Used build automation tools to optimize images and code, remedied unnecessary
                     critical rendering path blockers, refactored JavaScript to remove forced synchronous layout
                      issues, introduced layer management to minimize re-rendering as a user scrolls through the pages.
-                  </figcaption>
-               </figure>
-               <footer class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-               </footer>
-            </article>
-         </aside>
-      </div>
-
-      <!-- Modal Project 3-->
-      <div class="modal fade" id="project3" tabindex="-1" role="dialog"
-         aria-labelledby="myModalLabel3" aria-hidden="true">
-         <aside class="modal-dialog">
-            <article class="modal-content">
-               <header class="modal-header">
-                  <h4 class="modal-title text-center" id="myModalLabel3">Neighborhood Map Page</h4>
-               </header>
-               <figure class="modal-body">
-                  <img class="img-responsive" src="images/neighborhood-map/map-thumb-960-485.png"
-                     alt="A picture of Michael's Neighborhood Map web app.
-                      The picture features a Google Maps background with markers signifying
-                      locations of interest. Alternatively, there is a search bar and list view
-                      of those same locations.">
-                  <figcaption class="modal-descriptor">
-                    Learned to use the Model-View-ViewModel approach to app design via the Knockout framework
-                    while also learning how to better utilize AJAX API requests via JavaScript.
-                    Created a web app which uses the Google Maps API and Four Square API to display
-                    a map of the Lincoln Park neighborhood in Chicago IL complete with map markers
-                    for Restaurants and Coffee shops. Made map markers searchable, clickable, and also
-                    populated in a list view that can be opened and closed. For maximum responsiveness,
-                    settings adjust based on device screen size.
                   </figcaption>
                </figure>
                <footer class="modal-footer">
