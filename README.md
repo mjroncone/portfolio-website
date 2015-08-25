@@ -1,5 +1,4 @@
 # Portfolio Website
-----
 
 ### Abstract:
 This site was created during the Udacity Front End Web Developer Nanodegree. I graduated from the program on August 23rd, 2015 and have since updated the portfolio to reflect my current projects.
