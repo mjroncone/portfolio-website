@@ -16,4 +16,4 @@ This portfolio was created strictly through the use of HTML, CSS, and the Bootst
 
 __Note about the center banner image:__
   * _The image was taken from http://www.chrisharrison.net/index.php/Visualizations/InternetMap and Chris Harrison has be attributed in the bottom right of the image where his homepage link still resides. The image is an internet connection density map of the world._
-  * _Unfortunately, I am still working on cross-browser issues in order to display the best version of the image based on device since the <picture> tag does not work in every browser._
+  * _Unfortunately, I am still working on cross-browser issues in order to display the best version of the image based on device since the picture tag does not work in every browser._
